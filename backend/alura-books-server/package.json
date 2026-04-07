@@ -1,0 +1,20 @@
+{
+  "name": "alura-books-server",
+  "version": "1.0.0",
+  "description": "Servidor backend do projeto Alura Books",
+  "author": "Enzo Barcelos",
+  "license": "ISC",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
